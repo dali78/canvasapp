@@ -1,0 +1,4 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: =Set(varItem, 1); Set(varTotalRows, CountRows('Canvas Training Scrolling- 3D models'))
+

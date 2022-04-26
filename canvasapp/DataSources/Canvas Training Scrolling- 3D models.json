@@ -1,0 +1,48 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-04-11T16:58:26.3100000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Attachments",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "File name with extension",
+      "{FullPath}": "Full Path",
+      "{HasAttachments}": "Has attachments",
+      "{Identifier}": "Identifier",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Link to item",
+      "{ModerationComment}": "Comments associated with the content approval of this list item",
+      "{ModerationStatus}": "Content approval status",
+      "{Name}": "Name",
+      "{Path}": "Folder path",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Trigger Window End Token",
+      "{TriggerWindowStartToken}": "Trigger Window Start Token",
+      "{VersionNumber}": "Version number",
+      "Attachments_CTS3Dmodels": "Attachments_CTS3Dmodels",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Created": "Created",
+      "Depth_CTS3Dmodels": "Depth_CTS3Dmodels",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "Height": "Height_CTS3Dmodels",
+      "ID": "ID",
+      "Modified": "Modified",
+      "Order0": "Order",
+      "Title": "Title",
+      "Width": "Width_CTS3Dmodels"
+    },
+    "DatasetName": "https://hsdyn.sharepoint.com/sites/WebForce3Colleagues",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Canvas Training Scrolling- 3D models",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

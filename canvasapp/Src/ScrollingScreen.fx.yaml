@@ -1,0 +1,192 @@
+ScrollingScreen As screen:
+
+    HeaderRectangle As rectangle:
+        BorderColor: =RGBA(234, 134, 133, 1)
+        Fill: =RGBA(234, 134, 133, 1)
+        Height: =70
+        Width: =640
+        ZIndex: =1
+
+    FooterRectangle As rectangle:
+        BorderColor: =RGBA(234, 134, 133, 1)
+        Fill: =RGBA(234, 134, 133, 1)
+        Height: =70
+        Width: =640
+        Y: =1066
+        ZIndex: =2
+
+    AddIcon As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =49
+        Icon: =Icon.Add
+        Width: =51
+        X: =15
+        Y: =10
+        ZIndex: =3
+
+    SettingsIcon As icon.Settings:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =49
+        Icon: =Icon.Settings
+        Width: =54
+        X: =575
+        Y: =1076
+        ZIndex: =4
+
+    HeaderLabel As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        Height: =66
+        Size: =25
+        Text: ="Scrolling Gallery"
+        Width: =360
+        X: =140
+        Y: =4
+        ZIndex: =5
+
+    FooterLabel As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        Height: =70
+        Size: =25
+        Text: ="Powered By Power Apps"
+        Width: =380
+        X: =140
+        Y: =1066
+        ZIndex: =6
+
+    MainGalleryButton As button:
+        BorderColor: =RGBA(234, 134, 133, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =485
+        HoverFill: =
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =24
+        Text: =
+        Width: =608
+        X: =15
+        Y: =110
+        ZIndex: =7
+
+    "MainGallery As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
+        Height: =477
+        Items: =Filter('Canvas Training Scrolling- 3D models', Order = varItem)
+        TemplatePadding: =0
+        TemplateSize: =585
+        Width: =593
+        X: =30
+        Y: =110
+        ZIndex: =8
+
+        Image12 As image:
+            Height: =367
+            Image: =First(ThisItem.Attachments).AbsoluteUri
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =465
+            X: =59
+            Y: =39
+            ZIndex: =1
+
+        Title12 As label:
+            Align: =Align.Center
+            Height: =41
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =465
+            X: =59
+            Y: =430
+            ZIndex: =2
+
+        Subtitle11 As label:
+            Height: =47
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Order
+            VerticalAlign: =VerticalAlign.Top
+            Visible: =false
+            Width: =73
+            X: =255
+            Y: =430
+            ZIndex: =3
+
+    "ScrollGallery As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
+        Height: =67
+        Items: ='Canvas Training Scrolling- 3D models'
+        TemplatePadding: =0
+        TemplateSize: =82
+        Width: =510
+        X: =66
+        Y: =609
+        ZIndex: =10
+
+        Subtitle11_1 As label:
+            Height: =33
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Order
+            VerticalAlign: =VerticalAlign.Top
+            Visible: =false
+            Width: =29
+            X: =18
+            Y: =14
+            ZIndex: =3
+
+        Circle1 As circle:
+            BorderColor: =RGBA(234, 134, 133, 1)
+            Fill: =If(ThisItem.Order = varItem,RGBA(234, 134, 133, 1), RGBA(234, 134, 133, 0.6))
+            Height: =30
+            OnSelect: =Set(varItem, ThisItem.Order)
+            Width: =30
+            X: =40
+            Y: =19
+            ZIndex: =4
+
+    LeftIcon As icon.Add:
+        Color: =RGBA(234, 134, 133, 1)
+        Height: =76
+        Icon: =Icon.ChevronLeft
+        OnSelect: |-
+            =If(
+               varItem>1 && varItem <= varTotalRows, Set(varItem, varItem-1),
+               varItem=1, Set(varItem, varTotalRows) 
+            )
+        Width: =36
+        X: =30
+        Y: =294
+        ZIndex: =11
+
+    RightIcon As icon.Add:
+        Color: =RGBA(234, 134, 133, 1)
+        Height: =76
+        Icon: =Icon.ChevronRight
+        OnSelect: |-
+            =If(
+                varItem>0 && varItem<varTotalRows, Set(varItem, varItem+1),
+                varItem = varTotalRows, Set(varItem,1)
+            )
+        Width: =36
+        X: =571
+        Y: =294
+        ZIndex: =12
+
