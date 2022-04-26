@@ -1,20 +1,102 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "AddIcon": 7,
+    "App": 1,
+    "Circle1": 19,
+    "FooterLabel": 21,
+    "FooterRectangle": 20,
+    "galleryTemplate7": 10,
+    "galleryTemplate7_1": 17,
+    "HeaderLabel": 6,
+    "HeaderRectangle": 5,
+    "Image12": 11,
+    "LeftIcon": 14,
+    "MainGallery": 9,
+    "MainGalleryButton": 8,
+    "RightIcon": 15,
+    "Screen1": 3,
+    "ScrollGallery": 16,
+    "ScrollingScreen": 4,
+    "SettingsIcon": 22,
+    "Subtitle11": 13,
+    "Subtitle11_1": 18,
+    "Title12": 12
+  },
   "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "04/26/2022 15:23:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "6bd5cc56-7849-4a21-9d89-8df12ea62ae5": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/b13e4af76482462fa4033c177deeedfc\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "patrick-OIFgeLnjwrM-unsplash": "0001.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "patrick-OIFgeLnjwrM-unsplash": "https://docserverpwaprodsfr.blob.core.windows.net/7c9ec465-bcb5-44c7-a4e0-8fd4628c7490-1/resource/Assets0Images00001.jpg?sv=2017-04-17&sr=b&sig=5vWZIc9xFAHEVakT9LyClnnKBTeMehD4WHAP7RqgLSY%3D&spr=https&se=2022-04-27T15%3A38%3A05Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Canvas Training Scrolling- 3D models": 0,
+    "CustomGallerySample": 1
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
-  "TemplateVersions": {}
+  "OrderXMLTemplate": {
+    "button": 3,
+    "circle": 6,
+    "gallery": 4,
+    "icon": 2,
+    "image": 5,
+    "label": 1,
+    "rectangle": 0
+  },
+  "PublishOrderIndices": {
+    "AddIcon": 6,
+    "App": 0,
+    "Circle1": 21,
+    "FooterLabel": 13,
+    "FooterRectangle": 12,
+    "galleryTemplate7": 15,
+    "galleryTemplate7_1": 19,
+    "HeaderLabel": 5,
+    "HeaderRectangle": 4,
+    "Image12": 16,
+    "LeftIcon": 9,
+    "MainGallery": 8,
+    "MainGalleryButton": 7,
+    "RightIcon": 10,
+    "Screen1": 2,
+    "ScrollGallery": 11,
+    "ScrollingScreen": 3,
+    "SettingsIcon": 14,
+    "Subtitle11": 18,
+    "Subtitle11_1": 20,
+    "Title12": 17
+  },
+  "ResourcesJsonIndices": {
+    "Image-patrick-OIFgeLnjwrM-unsplash": 1,
+    "Image-SampleImage": 0
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1011307,
+    "ControlCount": {
+      "button": 1,
+      "circle": 1,
+      "gallery": 2,
+      "galleryTemplate": 2,
+      "icon": 4,
+      "image": 1,
+      "label": 5,
+      "rectangle": 2,
+      "screen": 2
+    },
+    "DeserializationLoadTime": 0.2719654,
+    "ErrorCount": 1
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
