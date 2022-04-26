@@ -99,6 +99,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "ScrollingScreen"
+    "ScrollingScreen",
+    "Screen1"
   ]
 }

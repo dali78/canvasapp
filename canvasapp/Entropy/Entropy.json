@@ -15,6 +15,7 @@
     "MainGallery": 8,
     "MainGalleryButton": 7,
     "RightIcon": 14,
+    "Screen1": 23,
     "ScrollGallery": 15,
     "ScrollingScreen": 3,
     "SettingsIcon": 21,
@@ -23,7 +24,7 @@
     "Title12": 11
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "04/26/2022 15:16:12",
+  "HeaderLastSavedDateTimeUTC": "04/26/2022 15:23:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "6bd5cc56-7849-4a21-9d89-8df12ea62ae5": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/b13e4af76482462fa4033c177deeedfc\""
@@ -33,7 +34,7 @@
     "patrick-OIFgeLnjwrM-unsplash": "06c2ed38-b561-4d29-8bc9-431c96fd4d2f.jpg"
   },
   "LocalResourceRootPaths": {
-    "patrick-OIFgeLnjwrM-unsplash": "https://docserverpwaprodsfr.blob.core.windows.net/af6616d0-69f9-4ec4-9ed8-b8fbecf930c1-1/resource/Assets0Images006c2ed38-b561-4d29-8bc9-431c96fd4d2f.jpg?sv=2017-04-17&sr=b&sig=FgtZFDg5bnmRfFrhSP79MElKcc7HvfFhPVVzyx1yiUs%3D&spr=https&se=2022-04-27T15%3A07%3A22Z&sp=r"
+    "patrick-OIFgeLnjwrM-unsplash": "https://docserverpwaprodsfr.blob.core.windows.net/7c9ec465-bcb5-44c7-a4e0-8fd4628c7490-1/resource/Assets0Images006c2ed38-b561-4d29-8bc9-431c96fd4d2f.jpg?sv=2017-04-17&sr=b&sig=4z%2BvBMjQ3Fgu3%2FKYYaTfoVwoveoTD5X84N9Z%2BYs1Dfw%3D&spr=https&se=2022-04-27T15%3A37%3A31Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -68,6 +69,7 @@
     "MainGallery": 4,
     "MainGalleryButton": 3,
     "RightIcon": 10,
+    "Screen1": 0,
     "ScrollGallery": 11,
     "ScrollingScreen": 0,
     "SettingsIcon": 17,
@@ -81,7 +83,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1706141,
+    "AnalysisLoadTime": 0.1890483,
     "ControlCount": {
       "button": 1,
       "circle": 1,
@@ -93,7 +95,7 @@
       "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.7846018,
+    "DeserializationLoadTime": 1.7378979,
     "ErrorCount": 1
   },
   "WasLocalDatabaseReferencesEmpty": true
