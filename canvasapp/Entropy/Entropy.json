@@ -15,6 +15,7 @@
     "MainGallery": 8,
     "MainGalleryButton": 7,
     "RightIcon": 14,
+    "Screen1": 22,
     "ScrollGallery": 15,
     "ScrollingScreen": 3,
     "SettingsIcon": 21,
@@ -23,17 +24,17 @@
     "Title12": 11
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "04/26/2022 15:16:12",
+  "HeaderLastSavedDateTimeUTC": "04/26/2022 15:22:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "6bd5cc56-7849-4a21-9d89-8df12ea62ae5": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/b13e4af76482462fa4033c177deeedfc\""
+    "6bd5cc56-7849-4a21-9d89-8df12ea62ae5": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/290b3e0514c0444b824ee1bfce88ee33\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "patrick-OIFgeLnjwrM-unsplash": "06c2ed38-b561-4d29-8bc9-431c96fd4d2f.jpg"
   },
   "LocalResourceRootPaths": {
-    "patrick-OIFgeLnjwrM-unsplash": "https://docserverpwaprodsfr.blob.core.windows.net/af6616d0-69f9-4ec4-9ed8-b8fbecf930c1-1/resource/Assets0Images006c2ed38-b561-4d29-8bc9-431c96fd4d2f.jpg?sv=2017-04-17&sr=b&sig=FgtZFDg5bnmRfFrhSP79MElKcc7HvfFhPVVzyx1yiUs%3D&spr=https&se=2022-04-27T15%3A07%3A22Z&sp=r"
+    "patrick-OIFgeLnjwrM-unsplash": "https://docserverpwaprodsfr.blob.core.windows.net/4bc365ae-08e6-467c-94b0-a0435829c53d-1/resource/Assets0Images006c2ed38-b561-4d29-8bc9-431c96fd4d2f.jpg?sv=2017-04-17&sr=b&sig=aeFWOgevMBnh2IKk%2ByAK6incuJguYsogDSlFiY469cE%3D&spr=https&se=2022-04-27T15%3A36%3A39Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -68,6 +69,7 @@
     "MainGallery": 4,
     "MainGalleryButton": 3,
     "RightIcon": 10,
+    "Screen1": 0,
     "ScrollGallery": 11,
     "ScrollingScreen": 0,
     "SettingsIcon": 17,
@@ -81,7 +83,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1706141,
+    "AnalysisLoadTime": 0.1794207,
     "ControlCount": {
       "button": 1,
       "circle": 1,
@@ -93,7 +95,7 @@
       "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.7846018,
+    "DeserializationLoadTime": 1.5071158,
     "ErrorCount": 1
   },
   "WasLocalDatabaseReferencesEmpty": true
